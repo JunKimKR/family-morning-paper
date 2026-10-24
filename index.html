@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign latest = site.posts | first %}
+{% if latest %}
+<section class="latest">
+  <p class="issue-meta">오늘의 신문 · 제{{ latest.issue }}호 · {{ latest.date | date: "%Y년 %-m월 %-d일" }} ({{ latest.weekday }})</p>
+  <h1 class="issue-title"><a href="{{ latest.url | relative_url }}">{{ latest.headline }}</a></h1>
+  <a class="read-btn" href="{{ latest.url | relative_url }}">오늘 신문 읽기 →</a>
+</section>
+{% endif %}
+
+<h2 class="archive-title">지난 호 모아보기</h2>
+<ul class="archive">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      <span class="a-date">{{ post.date | date: "%-m/%-d" }} ({{ post.weekday }})</span>
+      <span class="a-head">{{ post.headline }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

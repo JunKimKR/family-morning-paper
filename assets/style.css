@@ -1,0 +1,129 @@
+:root {
+  --bg: #faf7f2;
+  --paper: #ffffff;
+  --ink: #1f1d1a;
+  --muted: #6b655c;
+  --line: #e7e1d7;
+  --accent: #b4462f;
+  --up: #d03b2f;      /* 한국식: 오르면 빨강 */
+  --down: #2563c9;    /* 내리면 파랑 */
+  --term-bg: #f3efe6;
+  --mine-bg: #fff4e0;
+  --mine-line: #f0c27a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161514;
+    --paper: #1f1e1c;
+    --ink: #ece8e1;
+    --muted: #a39d93;
+    --line: #34312d;
+    --accent: #f08a6c;
+    --up: #ff6b5e;
+    --down: #6aa0ff;
+    --term-bg: #2a2825;
+    --mine-bg: #2e2617;
+    --mine-line: #8a6a2e;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+a { color: var(--accent); }
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+
+.masthead {
+  text-align: center;
+  padding: 28px 16px 18px;
+  border-bottom: 3px double var(--line);
+  background: var(--paper);
+}
+.brand { font-size: 28px; font-weight: 800; color: var(--ink); text-decoration: none; letter-spacing: -0.5px; }
+.tagline { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+
+.issue-meta { color: var(--muted); font-size: 14px; margin: 28px 0 4px; }
+.issue-title { font-size: 26px; line-height: 1.35; margin: 0 0 20px; letter-spacing: -0.5px; }
+.issue-title a { color: var(--ink); text-decoration: none; }
+
+.issue h2 {
+  font-size: 22px;
+  margin: 40px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--ink);
+}
+.issue h3 { font-size: 19px; margin: 26px 0 8px; }
+.issue p, .issue li { margin: 8px 0; }
+.issue ul, .issue ol { padding-left: 22px; }
+
+/* 30초 요약 */
+.summary {
+  background: var(--ink);
+  color: var(--bg);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin: 8px 0 24px;
+}
+.summary h2 { color: var(--bg); border-color: var(--bg); margin-top: 0; font-size: 20px; }
+.summary ol { margin: 0; }
+.summary li { margin: 10px 0; }
+
+/* 숫자판 */
+.board { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 16px; background: var(--paper); border-radius: 10px; overflow: hidden; }
+.board th, .board td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.board th { background: var(--term-bg); font-weight: 700; font-size: 14px; }
+.board td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.up { color: var(--up); font-weight: 700; }
+.down { color: var(--down); font-weight: 700; }
+
+/* 용어 풀이 */
+.term {
+  background: var(--term-bg);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 14px 0;
+  font-size: 16px;
+}
+.term b:first-child { display: inline-block; margin-right: 4px; }
+
+/* 우리 주식에는? */
+.mine {
+  background: var(--mine-bg);
+  border-left: 5px solid var(--mine-line);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 16px 0;
+  font-size: 16.5px;
+}
+
+/* 정치: 양쪽 입장 */
+.sides { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 12px 0; }
+.side { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font-size: 16px; }
+.side b { display: block; margin-bottom: 4px; }
+@media (max-width: 520px) { .sides { grid-template-columns: 1fr; } }
+
+.sources { font-size: 14px; color: var(--muted); }
+.sources a { word-break: break-all; }
+
+/* 목록 페이지 */
+.latest { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 4px 20px 22px; margin-top: 24px; }
+.read-btn { display: inline-block; background: var(--accent); color: #fff; padding: 12px 20px; border-radius: 999px; text-decoration: none; font-weight: 700; }
+.archive-title { font-size: 18px; margin: 36px 0 8px; }
+.archive { list-style: none; padding: 0; margin: 0; }
+.archive li a { display: flex; gap: 12px; padding: 14px 4px; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.a-date { color: var(--muted); white-space: nowrap; font-size: 15px; min-width: 76px; }
+.a-head { font-weight: 600; }
+
+.pager { display: flex; justify-content: space-between; max-width: 720px; margin: 36px auto 0; padding: 0 16px; font-size: 15px; }
+.foot { color: var(--muted); font-size: 13px; padding-top: 24px; padding-bottom: 40px; border-top: 1px solid var(--line); margin-top: 40px; }
+.board td small { display: block; color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-top: 2px; font-weight: 400; }
+.board td:first-child { font-weight: 600; }
+@media (max-width: 520px) { .board { font-size: 15px; } .board th, .board td { padding: 9px 6px; } }

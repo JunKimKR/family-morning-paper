@@ -1,0 +1,14 @@
+title: 우리집 아침신문
+description: 매일 아침, 가족이 함께 읽는 경제·산업·정치·세계 소식
+lang: ko
+timezone: Asia/Seoul
+baseurl: /family-morning-paper
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+permalink: /:year/:month/:day/
+exclude:
+  - EDITORIAL_GUIDE.md
+  - README.md
+  - preview/
