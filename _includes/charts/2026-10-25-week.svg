@@ -1,0 +1,22 @@
+<figure class="chart">
+<figcaption>코스피의 한 주: 목요일에 크게 밀렸어요</figcaption>
+<svg viewBox="0 0 400 250" width="100%" role="img" aria-label="16일(지난 금) 5,668.05, 22일(목) 5,533.77, 23일(금) 5,550.30" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="14" y1="48.1" x2="386" y2="48.1" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M44.0,48.1 L200.0,165.9 L356.0,151.4" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
+<g><title>16일(지난 금) 5,668.05</title>
+<circle cx="44.0" cy="48.1" r="7" fill="var(--muted)" stroke="var(--paper)" stroke-width="2"/>
+<text x="44.0" y="32.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,668.05</text>
+<text x="44.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">16일(지난 금)</text>
+</g>
+<g><title>22일(목) 5,533.77</title>
+<circle cx="200.0" cy="165.9" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="200.0" y="195.9" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,533.77</text>
+<text x="200.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">22일(목)</text>
+</g>
+<g><title>23일(금) 5,550.30</title>
+<circle cx="356.0" cy="151.4" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="356.0" y="181.4" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,550.30</text>
+<text x="356.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">23일(금)</text>
+</g>
+</svg>
+</figure>
