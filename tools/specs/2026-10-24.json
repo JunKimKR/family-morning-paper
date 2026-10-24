@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-24",
+  "charts": [
+    {"name": "journey", "type": "journey", "title": "코스피의 하루: 떨어졌다가 되살아났어요",
+     "points": [
+       {"label": "전날 마감", "value": 5533.77},
+       {"label": "아침 시작", "value": 5403.17},
+       {"label": "가장 낮을 때", "value": 5305.98},
+       {"label": "오늘 마감", "value": 5550.30}
+     ]},
+    {"name": "moves", "type": "bars", "title": "오늘 얼마나 올랐나·내렸나 (전날 대비, %)", "unit": "%",
+     "items": [
+       {"label": "SK하이닉스", "value": 4.42},
+       {"label": "WTI유", "value": 3.8},
+       {"label": "브렌트유", "value": 3.1},
+       {"label": "삼성전자", "value": 0.47},
+       {"label": "코스피", "value": 0.30},
+       {"label": "미국 나스닥", "value": -0.21},
+       {"label": "미국 S&P 500", "value": -0.52},
+       {"label": "미국 다우", "value": -1.23}
+     ]},
+    {"name": "flows", "type": "bars", "title": "누가 팔고 누가 샀나 (코스피, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "기관", "value": 8723},
+       {"label": "외국인", "value": -9829}
+     ]}
+  ]
+}

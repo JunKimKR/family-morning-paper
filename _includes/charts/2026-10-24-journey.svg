@@ -1,0 +1,27 @@
+<figure class="chart">
+<figcaption>코스피의 하루: 떨어졌다가 되살아났어요</figcaption>
+<svg viewBox="0 0 400 250" width="100%" role="img" aria-label="전날 마감 5,533.77, 아침 시작 5,403.17, 가장 낮을 때 5,305.98, 오늘 마감 5,550.30" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="14" y1="56.1" x2="386" y2="56.1" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M44.0,56.1 L148.0,119.0 L252.0,165.9 L356.0,48.1" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
+<g><title>전날 마감 5,533.77</title>
+<circle cx="44.0" cy="56.1" r="7" fill="var(--muted)" stroke="var(--paper)" stroke-width="2"/>
+<text x="44.0" y="40.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,533.77</text>
+<text x="44.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">전날 마감</text>
+</g>
+<g><title>아침 시작 5,403.17</title>
+<circle cx="148.0" cy="119.0" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="148.0" y="149.0" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,403.17</text>
+<text x="148.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">아침 시작</text>
+</g>
+<g><title>가장 낮을 때 5,305.98</title>
+<circle cx="252.0" cy="165.9" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="252.0" y="195.9" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,305.98</text>
+<text x="252.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">가장 낮을 때</text>
+</g>
+<g><title>오늘 마감 5,550.30</title>
+<circle cx="356.0" cy="48.1" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="356.0" y="32.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,550.30</text>
+<text x="356.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">오늘 마감</text>
+</g>
+</svg>
+</figure>

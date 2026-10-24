@@ -17,9 +17,27 @@
   weekday: <월|화|수|목|금|토|일>
   title: "제N호 (M월 D일)"
   headline: "<그날 가장 중요한 소식 한 줄, 35자 안팎>"
+  tiles:   # 표지 숫자 카드 정확히 4개. dir은 up / down / flat
+    - {label: "코스피", value: "5,550.30", change: "0.30%", dir: up}
+    - {label: "원·달러 환율", value: "1,324.6원", change: "0.4원", dir: up}
+    - {label: "미국 나스닥", value: "25,955.34", change: "0.21%", dir: down}
+    - {label: "<그날 가장 화제인 지표>", value: "...", change: "...", dir: up}
   ---
   ```
 - 형식(HTML 블록 이름과 순서)은 직전 호와 똑같이 맞춥니다: `summary`, `board`, `term`, `mine`, `sides`, `sources`.
+- 섹션 제목에는 바로가기용 ID를 붙입니다: `{#summary}`, `{#economy}`, `{#industry}`, `{#politics}`, `{#world}`, `{#light}`, 출처 div에는 `id="sources"`.
+- 사진은 넣지 않습니다. 뉴스 사진은 저작권이 있어서 가족 사이트라도 공개 페이지에 올리면 안 됩니다.
+
+## 그래프 (매일 필수)
+글을 쓰기 전에 그래프부터 만듭니다. 손으로 SVG를 그리지 말고 반드시 스크립트를 씁니다.
+
+1. `_data/market_history.csv`에 그날 마감 숫자 한 줄을 추가합니다(확인된 숫자만, 모르면 칸을 비움). 장이 없는 날(주말·휴일)은 추가하지 않습니다.
+2. `tools/specs/YYYY-MM-DD.json`을 만듭니다. 형식은 직전 날짜 파일과 `tools/charts.py` 맨 위 설명을 따릅니다.
+   - 필수: `moves`(그날 주요 지표 등락률 막대, 큰 순서대로), `flows`(외국인·기관·개인 순매수, 확인된 것만)
+   - 권장: `kospi`(type "history", column "kospi", 최근 20일 선 그래프. 데이터가 2일 이상 쌓이면 자동으로 그려짐)
+   - 그날 이야기에 맞는 그래프를 하나 더 넣으면 좋습니다(예: `journey`로 장중 흐름, 환율 추이 등).
+3. `python3 tools/charts.py tools/specs/YYYY-MM-DD.json` 실행 → 출력된 `{% include charts/... %}` 줄을 본문의 알맞은 위치에 넣습니다.
+4. 숫자가 기사마다 다르면 그래프 아래에 `<p class="chart-note">`로 어떤 숫자를 썼는지 밝힙니다.
 
 ## 섹션 순서
 1. ⚡ 30초 요약: 정확히 3줄, 각 줄의 첫 문장은 굵게

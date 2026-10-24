@@ -2,11 +2,42 @@
 layout: default
 ---
 <article class="issue">
-  <p class="issue-meta">제{{ page.issue }}호 · {{ page.date | date: "%Y년 %-m월 %-d일" }} ({{ page.weekday }})</p>
-  <h1 class="issue-title">{{ page.headline }}</h1>
-  {{ content }}
+  <section class="cover">
+    <div class="wrap">
+      <p class="dateline"><span>제{{ page.issue }}호</span><span>{{ page.date | date: "%Y년 %-m월 %-d일" }} {{ page.weekday }}요일</span></p>
+      <h1 class="headline">{{ page.headline }}</h1>
+      {% if page.tiles %}
+      <div class="tiles">
+        {% for t in page.tiles %}
+        <div class="tile t-{{ t.dir }}">
+          <span class="t-label">{{ t.label }}</span>
+          <span class="t-value">{{ t.value }}</span>
+          <span class="t-change">{% if t.dir == "up" %}▲{% elsif t.dir == "down" %}▼{% endif %} {{ t.change }}</span>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </section>
+
+  <nav class="sec-nav" aria-label="섹션 바로가기">
+    <div class="wrap">
+      <a href="#summary">요약</a>
+      <a href="#economy">경제</a>
+      <a href="#industry">산업</a>
+      <a href="#politics">정치</a>
+      <a href="#world">세계</a>
+      <a href="#light">가벼운 소식</a>
+      <a href="#sources">출처</a>
+    </div>
+  </nav>
+
+  <div class="wrap body">
+    {{ content }}
+  </div>
 </article>
-<nav class="pager">
+
+<nav class="pager wrap">
   {% if page.previous %}<a href="{{ page.previous.url | relative_url }}">← 지난 호</a>{% else %}<span></span>{% endif %}
   <a href="{{ '/' | relative_url }}">전체 목록</a>
   {% if page.next %}<a href="{{ page.next.url | relative_url }}">다음 호 →</a>{% else %}<span></span>{% endif %}

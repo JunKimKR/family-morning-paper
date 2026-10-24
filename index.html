@@ -3,21 +3,36 @@ layout: default
 ---
 {% assign latest = site.posts | first %}
 {% if latest %}
-<section class="latest">
-  <p class="issue-meta">오늘의 신문 · 제{{ latest.issue }}호 · {{ latest.date | date: "%Y년 %-m월 %-d일" }} ({{ latest.weekday }})</p>
-  <h1 class="issue-title"><a href="{{ latest.url | relative_url }}">{{ latest.headline }}</a></h1>
-  <a class="read-btn" href="{{ latest.url | relative_url }}">오늘 신문 읽기 →</a>
+<section class="cover">
+  <div class="wrap">
+    <p class="dateline"><span>오늘의 신문 · 제{{ latest.issue }}호</span><span>{{ latest.date | date: "%Y년 %-m월 %-d일" }} {{ latest.weekday }}요일</span></p>
+    <h1 class="headline"><a href="{{ latest.url | relative_url }}">{{ latest.headline }}</a></h1>
+    {% if latest.tiles %}
+    <div class="tiles">
+      {% for t in latest.tiles %}
+      <div class="tile t-{{ t.dir }}">
+        <span class="t-label">{{ t.label }}</span>
+        <span class="t-value">{{ t.value }}</span>
+        <span class="t-change">{% if t.dir == "up" %}▲{% elsif t.dir == "down" %}▼{% endif %} {{ t.change }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <a class="read-btn" href="{{ latest.url | relative_url }}">오늘 신문 읽기 →</a>
+  </div>
 </section>
 {% endif %}
 
-<h2 class="archive-title">지난 호 모아보기</h2>
-<ul class="archive">
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url | relative_url }}">
-      <span class="a-date">{{ post.date | date: "%-m/%-d" }} ({{ post.weekday }})</span>
-      <span class="a-head">{{ post.headline }}</span>
-    </a>
-  </li>
-  {% endfor %}
-</ul>
+<div class="wrap">
+  <h2 class="archive-title">지난 호 모아보기</h2>
+  <ul class="archive">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="a-date">{{ post.date | date: "%-m.%-d" }} <small>{{ post.weekday }}</small></span>
+        <span class="a-head">{{ post.headline }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
