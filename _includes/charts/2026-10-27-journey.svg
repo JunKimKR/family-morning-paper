@@ -1,0 +1,32 @@
+<figure class="chart">
+<figcaption>어제 코스피의 하루: 잠깐 올랐다가 밀렸어요</figcaption>
+<svg viewBox="0 0 400 250" width="100%" role="img" aria-label="금요일 마감 5,550.30, 아침 시작 5,499.05, 가장 높을 때 5,565.67, 가장 낮을 때 5,455.11, 월요일 마감 5,469.47" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="14" y1="64.5" x2="386" y2="64.5" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M44.0,64.5 L122.0,119.1 L200.0,48.1 L278.0,165.9 L356.0,150.6" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
+<g><title>금요일 마감 5,550.30</title>
+<circle cx="44.0" cy="64.5" r="7" fill="var(--muted)" stroke="var(--paper)" stroke-width="2"/>
+<text x="44.0" y="48.5" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,550.30</text>
+<text x="44.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">금요일 마감</text>
+</g>
+<g><title>아침 시작 5,499.05</title>
+<circle cx="122.0" cy="119.1" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="122.0" y="149.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,499.05</text>
+<text x="122.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">아침 시작</text>
+</g>
+<g><title>가장 높을 때 5,565.67</title>
+<circle cx="200.0" cy="48.1" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="200.0" y="32.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,565.67</text>
+<text x="200.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">가장 높을 때</text>
+</g>
+<g><title>가장 낮을 때 5,455.11</title>
+<circle cx="278.0" cy="165.9" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="278.0" y="195.9" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,455.11</text>
+<text x="278.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">가장 낮을 때</text>
+</g>
+<g><title>월요일 마감 5,469.47</title>
+<circle cx="356.0" cy="150.6" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="356.0" y="180.6" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,469.47</text>
+<text x="356.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">월요일 마감</text>
+</g>
+</svg>
+</figure>
