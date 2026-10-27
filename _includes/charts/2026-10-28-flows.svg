@@ -1,0 +1,24 @@
+<figure class="chart">
+<figcaption>누가 사고 누가 팔았나 (코스피, 억 원)</figcaption>
+<svg viewBox="0 0 400 134" width="100%" role="img" aria-label="외국인 +5,930 억 원, 기관 +2,804 억 원, 개인 −9,478 억 원" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="246.0" y1="2" x2="246.0" y2="130" stroke="var(--muted)" stroke-width="1.5"/>
+<g><title>외국인 +5,930 억 원</title>
+<rect x="0" y="6" width="400" height="40" fill="transparent"/>
+<text x="0" y="32.0" font-size="15" font-weight="600" fill="var(--ink)">외국인</text>
+<rect x="246.0" y="16.0" width="50.1" height="20" rx="4" fill="var(--up)"/>
+<text x="304.1" y="32.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+5,930 억 원</text>
+</g>
+<g><title>기관 +2,804 억 원</title>
+<rect x="0" y="46" width="400" height="40" fill="transparent"/>
+<text x="0" y="72.0" font-size="15" font-weight="600" fill="var(--ink)">기관</text>
+<rect x="246.0" y="56.0" width="23.7" height="20" rx="4" fill="var(--up)"/>
+<text x="277.7" y="72.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+2,804 억 원</text>
+</g>
+<g><title>개인 −9,478 억 원</title>
+<rect x="0" y="86" width="400" height="40" fill="transparent"/>
+<text x="0" y="112.0" font-size="15" font-weight="600" fill="var(--ink)">개인</text>
+<rect x="166.0" y="96.0" width="80.0" height="20" rx="4" fill="var(--down)"/>
+<text x="158.0" y="112.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">−9,478 억 원</text>
+</g>
+</svg>
+</figure>
