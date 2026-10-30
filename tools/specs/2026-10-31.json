@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-31",
+  "charts": [
+    {"name": "moves", "type": "bars", "title": "금요일 얼마나 올랐나·내렸나 (전날 대비, %)", "unit": "%",
+     "items": [
+       {"label": "브렌트유", "value": 2.4},
+       {"label": "WTI유", "value": 2.1},
+       {"label": "미국 다우", "value": -1.09},
+       {"label": "미국 S&P 500", "value": -1.82},
+       {"label": "미국 나스닥", "value": -2.86},
+       {"label": "삼성전자", "value": -3.02},
+       {"label": "코스피", "value": -3.48},
+       {"label": "코스닥", "value": -3.83},
+       {"label": "SK하이닉스", "value": -7.08}
+     ]},
+    {"name": "journey", "type": "journey", "title": "금요일 코스피의 하루: 5% 넘게 밀렸다가 조금 회복",
+     "points": [
+       {"label": "목요일 마감", "value": 5937.66},
+       {"label": "아침 시작", "value": 5760.35},
+       {"label": "가장 낮을 때", "value": 5599.42},
+       {"label": "금요일 마감", "value": 5730.74}
+     ]},
+    {"name": "flows", "type": "bars", "title": "누가 사고 누가 팔았나 (코스피, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "기관", "value": 7432},
+       {"label": "개인", "value": 6198},
+       {"label": "외국인", "value": -16170}
+     ]},
+    {"name": "kospi", "type": "history", "title": "코스피 최근 흐름 (마감 기준)", "column": "kospi", "days": 20}
+  ]
+}
