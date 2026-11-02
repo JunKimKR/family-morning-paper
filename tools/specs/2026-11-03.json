@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-03",
+  "charts": [
+    {"name": "moves", "type": "bars", "title": "어제 얼마나 올랐나·내렸나 (전날 대비, %)", "unit": "%",
+     "items": [
+       {"label": "SK하이닉스", "value": 3.81},
+       {"label": "코스피", "value": 2.24},
+       {"label": "삼성전자", "value": 1.78},
+       {"label": "코스닥", "value": 1.38},
+       {"label": "미국 다우", "value": 0.41},
+       {"label": "미국 S&P 500", "value": -0.51},
+       {"label": "미국 나스닥", "value": -1.07},
+       {"label": "국제유가(약)", "value": -7.0}
+     ]},
+    {"name": "flows", "type": "bars", "title": "누가 사고 누가 팔았나 (코스피, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "기관", "value": 12330},
+       {"label": "외국인", "value": -3731},
+       {"label": "개인", "value": -13467}
+     ]},
+    {"name": "kospi", "type": "history", "title": "코스피 최근 흐름 (마감 기준)", "column": "kospi", "days": 20}
+  ]
+}
