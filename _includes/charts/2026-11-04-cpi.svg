@@ -1,0 +1,48 @@
+<figure class="chart">
+<figcaption>10월 물가, 1년 전보다 얼마나 올랐나 (%)</figcaption>
+<svg viewBox="0 0 400 294" width="100%" role="img" aria-label="석유류 +14.90%, 공업제품 +4.40%, 가공식품 +2.90%, 외식 +2.90%, 전체 물가 +2.80%, 서비스 +2.70%, 농축수산물 -1.70%" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="246.0" y1="2" x2="246.0" y2="290" stroke="var(--muted)" stroke-width="1.5"/>
+<g><title>석유류 +14.90%</title>
+<rect x="0" y="6" width="400" height="40" fill="transparent"/>
+<text x="0" y="32.0" font-size="15" font-weight="600" fill="var(--ink)">석유류</text>
+<rect x="246.0" y="16.0" width="80.0" height="20" rx="4" fill="var(--up)"/>
+<text x="334.0" y="32.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+14.90%</text>
+</g>
+<g><title>공업제품 +4.40%</title>
+<rect x="0" y="46" width="400" height="40" fill="transparent"/>
+<text x="0" y="72.0" font-size="15" font-weight="600" fill="var(--ink)">공업제품</text>
+<rect x="246.0" y="56.0" width="23.6" height="20" rx="4" fill="var(--up)"/>
+<text x="277.6" y="72.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+4.40%</text>
+</g>
+<g><title>가공식품 +2.90%</title>
+<rect x="0" y="86" width="400" height="40" fill="transparent"/>
+<text x="0" y="112.0" font-size="15" font-weight="600" fill="var(--ink)">가공식품</text>
+<rect x="246.0" y="96.0" width="15.6" height="20" rx="4" fill="var(--up)"/>
+<text x="269.6" y="112.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+2.90%</text>
+</g>
+<g><title>외식 +2.90%</title>
+<rect x="0" y="126" width="400" height="40" fill="transparent"/>
+<text x="0" y="152.0" font-size="15" font-weight="600" fill="var(--ink)">외식</text>
+<rect x="246.0" y="136.0" width="15.6" height="20" rx="4" fill="var(--up)"/>
+<text x="269.6" y="152.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+2.90%</text>
+</g>
+<g><title>전체 물가 +2.80%</title>
+<rect x="0" y="166" width="400" height="40" fill="transparent"/>
+<text x="0" y="192.0" font-size="15" font-weight="600" fill="var(--ink)">전체 물가</text>
+<rect x="246.0" y="176.0" width="15.0" height="20" rx="4" fill="var(--up)"/>
+<text x="269.0" y="192.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+2.80%</text>
+</g>
+<g><title>서비스 +2.70%</title>
+<rect x="0" y="206" width="400" height="40" fill="transparent"/>
+<text x="0" y="232.0" font-size="15" font-weight="600" fill="var(--ink)">서비스</text>
+<rect x="246.0" y="216.0" width="14.5" height="20" rx="4" fill="var(--up)"/>
+<text x="268.5" y="232.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+2.70%</text>
+</g>
+<g><title>농축수산물 -1.70%</title>
+<rect x="0" y="246" width="400" height="40" fill="transparent"/>
+<text x="0" y="272.0" font-size="15" font-weight="600" fill="var(--ink)">농축수산물</text>
+<rect x="236.9" y="256.0" width="9.1" height="20" rx="4" fill="var(--down)"/>
+<text x="228.9" y="272.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-1.70%</text>
+</g>
+</svg>
+</figure>
