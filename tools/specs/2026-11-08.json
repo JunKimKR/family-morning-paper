@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-08",
+  "charts": [
+    {"name": "moves", "type": "bars", "title": "이번 주 얼마나 올랐나·내렸나 (지난주 금요일 대비, %)", "unit": "%",
+     "items": [
+       {"label": "미국 다우", "value": -0.93},
+       {"label": "미국 S&P 500", "value": -2.68},
+       {"label": "미국 나스닥", "value": -3.37},
+       {"label": "코스닥", "value": -11.06},
+       {"label": "코스피", "value": -11.71},
+       {"label": "WTI유", "value": -12.76},
+       {"label": "브렌트유", "value": -13.32},
+       {"label": "삼성전자", "value": -16.13},
+       {"label": "SK하이닉스", "value": -20.17}
+     ]},
+    {"name": "week", "type": "journey", "title": "코스피의 한 주: 화·목·금에 크게 밀렸어요",
+     "points": [
+       {"label": "30(금)", "value": 5730.74},
+       {"label": "2(월)", "value": 5859.08},
+       {"label": "3(화)", "value": 5648.79},
+       {"label": "4(수)", "value": 5683.80},
+       {"label": "5(목)", "value": 5383.80},
+       {"label": "6(금)", "value": 5059.69}
+     ]},
+    {"name": "flows", "type": "bars", "title": "이번 주 외국인이 판 금액 (코스피, 날짜별, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "2일(월)", "value": -3731},
+       {"label": "3일(화)", "value": -15299},
+       {"label": "4일(수)", "value": -25095},
+       {"label": "5일(목)", "value": -34242},
+       {"label": "6일(금)", "value": -27690}
+     ]},
+    {"name": "kospi", "type": "history", "title": "코스피 최근 흐름 (마감 기준)", "column": "kospi", "days": 20}
+  ]
+}
