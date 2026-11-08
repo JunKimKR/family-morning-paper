@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-09",
+  "charts": [
+    {"name": "moves", "type": "bars", "title": "10월 28일(최근 고점) 이후 얼마나 내렸나 (%)", "unit": "%",
+     "items": [
+       {"label": "미국 나스닥", "value": -7.42},
+       {"label": "미국 S&P 500", "value": -4.74},
+       {"label": "코스피", "value": -15.85},
+       {"label": "삼성전자", "value": -22.02},
+       {"label": "SK하이닉스", "value": -23.87}
+     ]},
+    {"name": "flows", "type": "bars", "title": "지난 금요일, 누가 사고 누가 팔았나 (코스피, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "기관", "value": 17042},
+       {"label": "개인", "value": 6010},
+       {"label": "외국인", "value": -27690}
+     ]},
+    {"name": "kospi", "type": "history", "title": "코스피 최근 흐름 (마감 기준)", "column": "kospi", "days": 20}
+  ]
+}
