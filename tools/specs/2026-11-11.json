@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-11",
+  "charts": [
+    {"name": "moves", "type": "bars", "title": "어제 얼마나 올랐나·내렸나 (전날 대비, %)", "unit": "%",
+     "items": [
+       {"label": "SK하이닉스", "value": 6.69},
+       {"label": "삼성전자", "value": 4.74},
+       {"label": "코스닥", "value": 4.48},
+       {"label": "코스피", "value": 4.39},
+       {"label": "미국 다우", "value": -0.30},
+       {"label": "미국 S&P 500", "value": -0.38},
+       {"label": "미국 나스닥", "value": -0.74},
+       {"label": "WTI유", "value": -0.93},
+       {"label": "브렌트유", "value": -1.17}
+     ]},
+    {"name": "flows", "type": "bars", "title": "누가 사고 누가 팔았나 (코스피, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "기관", "value": 4979},
+       {"label": "외국인", "value": 3586},
+       {"label": "개인", "value": -13395}
+     ]},
+    {"name": "cpi", "type": "bars", "title": "미국 10월 물가: 예상보다 얼마나 높았나 (전달 대비, %)", "unit": "%",
+     "items": [
+       {"label": "전체 물가(실제)", "value": 0.4},
+       {"label": "전체 물가(예상)", "value": 0.3},
+       {"label": "근원 물가(실제)", "value": 0.3},
+       {"label": "근원 물가(예상)", "value": 0.2}
+     ]},
+    {"name": "kospi", "type": "history", "title": "코스피 최근 흐름 (마감 기준)", "column": "kospi", "days": 20}
+  ]
+}

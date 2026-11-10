@@ -1,0 +1,30 @@
+<figure class="chart">
+<figcaption>미국 10월 물가: 예상보다 얼마나 높았나 (전달 대비, %)</figcaption>
+<svg viewBox="0 0 400 174" width="100%" role="img" aria-label="전체 물가(실제) +0.40%, 전체 물가(예상) +0.30%, 근원 물가(실제) +0.30%, 근원 물가(예상) +0.20%" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="246.0" y1="2" x2="246.0" y2="170" stroke="var(--muted)" stroke-width="1.5"/>
+<g><title>전체 물가(실제) +0.40%</title>
+<rect x="0" y="6" width="400" height="40" fill="transparent"/>
+<text x="0" y="32.0" font-size="15" font-weight="600" fill="var(--ink)">전체 물가(실제)</text>
+<rect x="246.0" y="16.0" width="80.0" height="20" rx="4" fill="var(--up)"/>
+<text x="334.0" y="32.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+0.40%</text>
+</g>
+<g><title>전체 물가(예상) +0.30%</title>
+<rect x="0" y="46" width="400" height="40" fill="transparent"/>
+<text x="0" y="72.0" font-size="15" font-weight="600" fill="var(--ink)">전체 물가(예상)</text>
+<rect x="246.0" y="56.0" width="60.0" height="20" rx="4" fill="var(--up)"/>
+<text x="314.0" y="72.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+0.30%</text>
+</g>
+<g><title>근원 물가(실제) +0.30%</title>
+<rect x="0" y="86" width="400" height="40" fill="transparent"/>
+<text x="0" y="112.0" font-size="15" font-weight="600" fill="var(--ink)">근원 물가(실제)</text>
+<rect x="246.0" y="96.0" width="60.0" height="20" rx="4" fill="var(--up)"/>
+<text x="314.0" y="112.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+0.30%</text>
+</g>
+<g><title>근원 물가(예상) +0.20%</title>
+<rect x="0" y="126" width="400" height="40" fill="transparent"/>
+<text x="0" y="152.0" font-size="15" font-weight="600" fill="var(--ink)">근원 물가(예상)</text>
+<rect x="246.0" y="136.0" width="40.0" height="20" rx="4" fill="var(--up)"/>
+<text x="294.0" y="152.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+0.20%</text>
+</g>
+</svg>
+</figure>
