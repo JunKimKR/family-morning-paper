@@ -1,0 +1,27 @@
+<figure class="chart">
+<figcaption>어제 코스피의 하루: 내려서 시작해 거의 최고로 마감</figcaption>
+<svg viewBox="0 0 400 250" width="100%" role="img" aria-label="화 마감 5,239.13, 아침 시작 5,209.71, 가장 높을 때 5,377.99, 수 마감 5,375.36" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="14" y1="145.3" x2="386" y2="145.3" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M44.0,145.3 L148.0,165.9 L252.0,48.1 L356.0,50.0" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
+<g><title>화 마감 5,239.13</title>
+<circle cx="44.0" cy="145.3" r="7" fill="var(--muted)" stroke="var(--paper)" stroke-width="2"/>
+<text x="44.0" y="129.3" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,239.13</text>
+<text x="44.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">화 마감</text>
+</g>
+<g><title>아침 시작 5,209.71</title>
+<circle cx="148.0" cy="165.9" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="148.0" y="195.9" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,209.71</text>
+<text x="148.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">아침 시작</text>
+</g>
+<g><title>가장 높을 때 5,377.99</title>
+<circle cx="252.0" cy="48.1" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="252.0" y="32.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,377.99</text>
+<text x="252.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">가장 높을 때</text>
+</g>
+<g><title>수 마감 5,375.36</title>
+<circle cx="356.0" cy="50.0" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="356.0" y="34.0" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,375.36</text>
+<text x="356.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">수 마감</text>
+</g>
+</svg>
+</figure>
