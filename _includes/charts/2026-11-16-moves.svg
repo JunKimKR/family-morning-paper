@@ -1,0 +1,36 @@
+<figure class="chart">
+<figcaption>10월 28일(최근 고점) 이후 얼마나 내렸나 (13일 마감 기준, %)</figcaption>
+<svg viewBox="0 0 400 214" width="100%" role="img" aria-label="미국 S&amp;P 500 -2.35%, 미국 나스닥 -5.32%, 코스피 -12.01%, 삼성전자 -14.88%, SK하이닉스 -18.22%" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="246.0" y1="2" x2="246.0" y2="210" stroke="var(--muted)" stroke-width="1.5"/>
+<g><title>미국 S&amp;P 500 -2.35%</title>
+<rect x="0" y="6" width="400" height="40" fill="transparent"/>
+<text x="0" y="32.0" font-size="15" font-weight="600" fill="var(--ink)">미국 S&amp;P 500</text>
+<rect x="235.7" y="16.0" width="10.3" height="20" rx="4" fill="var(--down)"/>
+<text x="227.7" y="32.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-2.35%</text>
+</g>
+<g><title>미국 나스닥 -5.32%</title>
+<rect x="0" y="46" width="400" height="40" fill="transparent"/>
+<text x="0" y="72.0" font-size="15" font-weight="600" fill="var(--ink)">미국 나스닥</text>
+<rect x="222.6" y="56.0" width="23.4" height="20" rx="4" fill="var(--down)"/>
+<text x="214.6" y="72.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-5.32%</text>
+</g>
+<g><title>코스피 -12.01%</title>
+<rect x="0" y="86" width="400" height="40" fill="transparent"/>
+<text x="0" y="112.0" font-size="15" font-weight="600" fill="var(--ink)">코스피</text>
+<rect x="193.3" y="96.0" width="52.7" height="20" rx="4" fill="var(--down)"/>
+<text x="185.3" y="112.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-12.01%</text>
+</g>
+<g><title>삼성전자 -14.88%</title>
+<rect x="0" y="126" width="400" height="40" fill="transparent"/>
+<text x="0" y="152.0" font-size="15" font-weight="600" fill="var(--ink)">삼성전자</text>
+<rect x="180.7" y="136.0" width="65.3" height="20" rx="4" fill="var(--down)"/>
+<text x="172.7" y="152.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-14.88%</text>
+</g>
+<g><title>SK하이닉스 -18.22%</title>
+<rect x="0" y="166" width="400" height="40" fill="transparent"/>
+<text x="0" y="192.0" font-size="15" font-weight="600" fill="var(--ink)">SK하이닉스</text>
+<rect x="166.0" y="176.0" width="80.0" height="20" rx="4" fill="var(--down)"/>
+<text x="158.0" y="192.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-18.22%</text>
+</g>
+</svg>
+</figure>
