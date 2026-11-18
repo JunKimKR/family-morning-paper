@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-19",
+  "charts": [
+    {"name": "moves", "type": "bars", "title": "어제 얼마나 올랐나·내렸나 (전날 대비, %)", "unit": "%",
+     "items": [
+       {"label": "SK하이닉스", "value": 4.19},
+       {"label": "삼성전자", "value": 2.31},
+       {"label": "코스피", "value": 1.99},
+       {"label": "코스닥", "value": 1.96},
+       {"label": "미국 나스닥(약)", "value": 0.4},
+       {"label": "미국 S&P 500", "value": -0.23},
+       {"label": "미국 다우", "value": -1.11},
+       {"label": "브렌트유(약)", "value": -1.3},
+       {"label": "엔비디아(약)", "value": -2.7}
+     ]},
+    {"name": "nvidia", "type": "bars", "title": "엔비디아 분기 매출: 예상 vs 실제 vs 다음 분기 전망 (억 달러)", "unit": "억 달러",
+     "items": [
+       {"label": "다음 분기 회사 전망", "value": 1300},
+       {"label": "다음 분기 시장 예상", "value": 1247},
+       {"label": "이번 분기 실제", "value": 1158},
+       {"label": "이번 분기 시장 예상", "value": 1091}
+     ]},
+    {"name": "flows", "type": "bars", "title": "누가 사고 누가 팔았나 (코스피, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "기관", "value": 5492},
+       {"label": "외국인", "value": -3276},
+       {"label": "개인", "value": -6699}
+     ]},
+    {"name": "kospi", "type": "history", "title": "코스피 최근 흐름 (마감 기준)", "column": "kospi", "days": 20}
+  ]
+}

@@ -1,0 +1,30 @@
+<figure class="chart">
+<figcaption>엔비디아 분기 매출: 예상 vs 실제 vs 다음 분기 전망 (억 달러)</figcaption>
+<svg viewBox="0 0 400 174" width="100%" role="img" aria-label="다음 분기 회사 전망 +1,300 억 달러, 다음 분기 시장 예상 +1,247 억 달러, 이번 분기 실제 +1,158 억 달러, 이번 분기 시장 예상 +1,091 억 달러" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="246.0" y1="2" x2="246.0" y2="170" stroke="var(--muted)" stroke-width="1.5"/>
+<g><title>다음 분기 회사 전망 +1,300 억 달러</title>
+<rect x="0" y="6" width="400" height="40" fill="transparent"/>
+<text x="0" y="32.0" font-size="15" font-weight="600" fill="var(--ink)">다음 분기 회사 전망</text>
+<rect x="246.0" y="16.0" width="80.0" height="20" rx="4" fill="var(--up)"/>
+<text x="334.0" y="32.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+1,300 억 달러</text>
+</g>
+<g><title>다음 분기 시장 예상 +1,247 억 달러</title>
+<rect x="0" y="46" width="400" height="40" fill="transparent"/>
+<text x="0" y="72.0" font-size="15" font-weight="600" fill="var(--ink)">다음 분기 시장 예상</text>
+<rect x="246.0" y="56.0" width="76.7" height="20" rx="4" fill="var(--up)"/>
+<text x="330.7" y="72.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+1,247 억 달러</text>
+</g>
+<g><title>이번 분기 실제 +1,158 억 달러</title>
+<rect x="0" y="86" width="400" height="40" fill="transparent"/>
+<text x="0" y="112.0" font-size="15" font-weight="600" fill="var(--ink)">이번 분기 실제</text>
+<rect x="246.0" y="96.0" width="71.3" height="20" rx="4" fill="var(--up)"/>
+<text x="325.3" y="112.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+1,158 억 달러</text>
+</g>
+<g><title>이번 분기 시장 예상 +1,091 억 달러</title>
+<rect x="0" y="126" width="400" height="40" fill="transparent"/>
+<text x="0" y="152.0" font-size="15" font-weight="600" fill="var(--ink)">이번 분기 시장 예상</text>
+<rect x="246.0" y="136.0" width="67.1" height="20" rx="4" fill="var(--up)"/>
+<text x="321.1" y="152.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+1,091 억 달러</text>
+</g>
+</svg>
+</figure>
