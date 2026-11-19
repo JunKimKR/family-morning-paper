@@ -1,0 +1,27 @@
+<figure class="chart">
+<figcaption>앤트로픽 상장 첫날 주가 (달러)</figcaption>
+<svg viewBox="0 0 400 250" width="100%" role="img" aria-label="공모가 83.00, 첫 거래 111.50, 가장 높을 때(약) 115.10, 마감 97.17" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="14" y1="165.9" x2="386" y2="165.9" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M44.0,165.9 L148.0,61.3 L252.0,48.1 L356.0,113.9" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
+<g><title>공모가 83.00</title>
+<circle cx="44.0" cy="165.9" r="7" fill="var(--muted)" stroke="var(--paper)" stroke-width="2"/>
+<text x="44.0" y="149.9" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">83.00</text>
+<text x="44.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">공모가</text>
+</g>
+<g><title>첫 거래 111.50</title>
+<circle cx="148.0" cy="61.3" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="148.0" y="45.3" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">111.50</text>
+<text x="148.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">첫 거래</text>
+</g>
+<g><title>가장 높을 때(약) 115.10</title>
+<circle cx="252.0" cy="48.1" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="252.0" y="32.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">115.10</text>
+<text x="252.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">가장 높을 때(약)</text>
+</g>
+<g><title>마감 97.17</title>
+<circle cx="356.0" cy="113.9" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="356.0" y="97.9" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">97.17</text>
+<text x="356.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">마감</text>
+</g>
+</svg>
+</figure>
