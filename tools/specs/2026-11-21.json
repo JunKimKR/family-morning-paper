@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-21",
+  "charts": [
+    {"name": "moves", "type": "bars", "title": "금요일 얼마나 올랐나·내렸나 (전날 대비, %)", "unit": "%",
+     "items": [
+       {"label": "미국 다우", "value": -1.93},
+       {"label": "미국 S&P 500", "value": -3.70},
+       {"label": "코스피", "value": -5.21},
+       {"label": "미국 나스닥", "value": -5.28},
+       {"label": "코스닥", "value": -5.71},
+       {"label": "SK하이닉스", "value": -5.92},
+       {"label": "삼성전자", "value": -7.01},
+       {"label": "앤트로픽(약)", "value": -10.0}
+     ]},
+    {"name": "flows", "type": "bars", "title": "누가 사고 누가 팔았나 (코스피, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "개인", "value": 15959},
+       {"label": "기관", "value": -9505},
+       {"label": "외국인", "value": -11343}
+     ]},
+    {"name": "weekly", "type": "bars", "title": "이번 주 성적표 (지난주 금요일 대비, %)", "unit": "%",
+     "items": [
+       {"label": "코스닥", "value": -7.72},
+       {"label": "코스피", "value": -7.95},
+       {"label": "미국 다우", "value": -8.02},
+       {"label": "SK하이닉스", "value": -8.47},
+       {"label": "미국 S&P 500", "value": -8.61},
+       {"label": "미국 나스닥", "value": -10.02},
+       {"label": "삼성전자", "value": -11.12}
+     ]},
+    {"name": "kospi", "type": "history", "title": "코스피 최근 흐름 (마감 기준)", "column": "kospi", "days": 20}
+  ]
+}
