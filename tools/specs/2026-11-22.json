@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-22",
+  "charts": [
+    {"name": "moves", "type": "bars", "title": "이번 주 얼마나 올랐나·내렸나 (지난주 금요일 대비, %)", "unit": "%",
+     "items": [
+       {"label": "브렌트유", "value": -3.41},
+       {"label": "코스닥", "value": -7.72},
+       {"label": "코스피", "value": -7.95},
+       {"label": "미국 다우", "value": -8.02},
+       {"label": "SK하이닉스", "value": -8.47},
+       {"label": "미국 S&P 500", "value": -8.61},
+       {"label": "미국 나스닥", "value": -10.02},
+       {"label": "삼성전자", "value": -11.12}
+     ]},
+    {"name": "week", "type": "journey", "title": "코스피의 한 주: 수·목 반등했다가 금요일 5% 폭락",
+     "points": [
+       {"label": "13(금)", "value": 5290.53},
+       {"label": "16(월)", "value": 5100.50},
+       {"label": "17(화)", "value": 4968.48},
+       {"label": "18(수)", "value": 5067.44},
+       {"label": "19(목)", "value": 5137.89},
+       {"label": "20(금)", "value": 4869.96}
+     ]},
+    {"name": "flows", "type": "bars", "title": "이번 주 외국인 순매수 (코스피, 날짜별, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "16일(월)", "value": -13769},
+       {"label": "17일(화)", "value": -14459},
+       {"label": "18일(수)", "value": -3276},
+       {"label": "19일(목)", "value": -4036},
+       {"label": "20일(금)", "value": -11343}
+     ]},
+    {"name": "kospi", "type": "history", "title": "코스피 최근 흐름 (마감 기준)", "column": "kospi", "days": 20}
+  ]
+}

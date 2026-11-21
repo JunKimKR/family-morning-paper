@@ -1,0 +1,54 @@
+<figure class="chart">
+<figcaption>이번 주 얼마나 올랐나·내렸나 (지난주 금요일 대비, %)</figcaption>
+<svg viewBox="0 0 400 334" width="100%" role="img" aria-label="브렌트유 -3.41%, 코스닥 -7.72%, 코스피 -7.95%, 미국 다우 -8.02%, SK하이닉스 -8.47%, 미국 S&amp;P 500 -8.61%, 미국 나스닥 -10.02%, 삼성전자 -11.12%" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="246.0" y1="2" x2="246.0" y2="330" stroke="var(--muted)" stroke-width="1.5"/>
+<g><title>브렌트유 -3.41%</title>
+<rect x="0" y="6" width="400" height="40" fill="transparent"/>
+<text x="0" y="32.0" font-size="15" font-weight="600" fill="var(--ink)">브렌트유</text>
+<rect x="221.5" y="16.0" width="24.5" height="20" rx="4" fill="var(--down)"/>
+<text x="213.5" y="32.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-3.41%</text>
+</g>
+<g><title>코스닥 -7.72%</title>
+<rect x="0" y="46" width="400" height="40" fill="transparent"/>
+<text x="0" y="72.0" font-size="15" font-weight="600" fill="var(--ink)">코스닥</text>
+<rect x="190.5" y="56.0" width="55.5" height="20" rx="4" fill="var(--down)"/>
+<text x="182.5" y="72.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-7.72%</text>
+</g>
+<g><title>코스피 -7.95%</title>
+<rect x="0" y="86" width="400" height="40" fill="transparent"/>
+<text x="0" y="112.0" font-size="15" font-weight="600" fill="var(--ink)">코스피</text>
+<rect x="188.8" y="96.0" width="57.2" height="20" rx="4" fill="var(--down)"/>
+<text x="180.8" y="112.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-7.95%</text>
+</g>
+<g><title>미국 다우 -8.02%</title>
+<rect x="0" y="126" width="400" height="40" fill="transparent"/>
+<text x="0" y="152.0" font-size="15" font-weight="600" fill="var(--ink)">미국 다우</text>
+<rect x="188.3" y="136.0" width="57.7" height="20" rx="4" fill="var(--down)"/>
+<text x="180.3" y="152.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-8.02%</text>
+</g>
+<g><title>SK하이닉스 -8.47%</title>
+<rect x="0" y="166" width="400" height="40" fill="transparent"/>
+<text x="0" y="192.0" font-size="15" font-weight="600" fill="var(--ink)">SK하이닉스</text>
+<rect x="185.1" y="176.0" width="60.9" height="20" rx="4" fill="var(--down)"/>
+<text x="177.1" y="192.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-8.47%</text>
+</g>
+<g><title>미국 S&amp;P 500 -8.61%</title>
+<rect x="0" y="206" width="400" height="40" fill="transparent"/>
+<text x="0" y="232.0" font-size="15" font-weight="600" fill="var(--ink)">미국 S&amp;P 500</text>
+<rect x="184.1" y="216.0" width="61.9" height="20" rx="4" fill="var(--down)"/>
+<text x="176.1" y="232.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-8.61%</text>
+</g>
+<g><title>미국 나스닥 -10.02%</title>
+<rect x="0" y="246" width="400" height="40" fill="transparent"/>
+<text x="0" y="272.0" font-size="15" font-weight="600" fill="var(--ink)">미국 나스닥</text>
+<rect x="173.9" y="256.0" width="72.1" height="20" rx="4" fill="var(--down)"/>
+<text x="165.9" y="272.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-10.02%</text>
+</g>
+<g><title>삼성전자 -11.12%</title>
+<rect x="0" y="286" width="400" height="40" fill="transparent"/>
+<text x="0" y="312.0" font-size="15" font-weight="600" fill="var(--ink)">삼성전자</text>
+<rect x="166.0" y="296.0" width="80.0" height="20" rx="4" fill="var(--down)"/>
+<text x="158.0" y="312.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-11.12%</text>
+</g>
+</svg>
+</figure>
