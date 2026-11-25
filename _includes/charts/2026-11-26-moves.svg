@@ -1,0 +1,54 @@
+<figure class="chart">
+<figcaption>어제 얼마나 올랐나·내렸나 (전날 대비, %)</figcaption>
+<svg viewBox="0 0 400 334" width="100%" role="img" aria-label="미국 다우 +0.33%, 미국 S&amp;P 500 -0.25%, 미국 나스닥 -0.62%, 코스닥 -2.29%, 엔비디아 -3.91%, 코스피 -6.16%, 삼성전자 -9.87%, SK하이닉스 -11.05%" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="246.0" y1="2" x2="246.0" y2="330" stroke="var(--muted)" stroke-width="1.5"/>
+<g><title>미국 다우 +0.33%</title>
+<rect x="0" y="6" width="400" height="40" fill="transparent"/>
+<text x="0" y="32.0" font-size="15" font-weight="600" fill="var(--ink)">미국 다우</text>
+<rect x="246.0" y="16.0" width="3.0" height="20" rx="4" fill="var(--up)"/>
+<text x="257.0" y="32.0" font-size="14" font-weight="700" text-anchor="start" fill="var(--ink)">+0.33%</text>
+</g>
+<g><title>미국 S&amp;P 500 -0.25%</title>
+<rect x="0" y="46" width="400" height="40" fill="transparent"/>
+<text x="0" y="72.0" font-size="15" font-weight="600" fill="var(--ink)">미국 S&amp;P 500</text>
+<rect x="243.0" y="56.0" width="3.0" height="20" rx="4" fill="var(--down)"/>
+<text x="235.0" y="72.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-0.25%</text>
+</g>
+<g><title>미국 나스닥 -0.62%</title>
+<rect x="0" y="86" width="400" height="40" fill="transparent"/>
+<text x="0" y="112.0" font-size="15" font-weight="600" fill="var(--ink)">미국 나스닥</text>
+<rect x="241.5" y="96.0" width="4.5" height="20" rx="4" fill="var(--down)"/>
+<text x="233.5" y="112.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-0.62%</text>
+</g>
+<g><title>코스닥 -2.29%</title>
+<rect x="0" y="126" width="400" height="40" fill="transparent"/>
+<text x="0" y="152.0" font-size="15" font-weight="600" fill="var(--ink)">코스닥</text>
+<rect x="229.4" y="136.0" width="16.6" height="20" rx="4" fill="var(--down)"/>
+<text x="221.4" y="152.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-2.29%</text>
+</g>
+<g><title>엔비디아 -3.91%</title>
+<rect x="0" y="166" width="400" height="40" fill="transparent"/>
+<text x="0" y="192.0" font-size="15" font-weight="600" fill="var(--ink)">엔비디아</text>
+<rect x="217.7" y="176.0" width="28.3" height="20" rx="4" fill="var(--down)"/>
+<text x="209.7" y="192.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-3.91%</text>
+</g>
+<g><title>코스피 -6.16%</title>
+<rect x="0" y="206" width="400" height="40" fill="transparent"/>
+<text x="0" y="232.0" font-size="15" font-weight="600" fill="var(--ink)">코스피</text>
+<rect x="201.4" y="216.0" width="44.6" height="20" rx="4" fill="var(--down)"/>
+<text x="193.4" y="232.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-6.16%</text>
+</g>
+<g><title>삼성전자 -9.87%</title>
+<rect x="0" y="246" width="400" height="40" fill="transparent"/>
+<text x="0" y="272.0" font-size="15" font-weight="600" fill="var(--ink)">삼성전자</text>
+<rect x="174.5" y="256.0" width="71.5" height="20" rx="4" fill="var(--down)"/>
+<text x="166.5" y="272.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-9.87%</text>
+</g>
+<g><title>SK하이닉스 -11.05%</title>
+<rect x="0" y="286" width="400" height="40" fill="transparent"/>
+<text x="0" y="312.0" font-size="15" font-weight="600" fill="var(--ink)">SK하이닉스</text>
+<rect x="166.0" y="296.0" width="80.0" height="20" rx="4" fill="var(--down)"/>
+<text x="158.0" y="312.0" font-size="14" font-weight="700" text-anchor="end" fill="var(--ink)">-11.05%</text>
+</g>
+</svg>
+</figure>

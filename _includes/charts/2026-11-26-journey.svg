@@ -1,0 +1,32 @@
+<figure class="chart">
+<figcaption>코스피 롤러코스터: 최근 5거래일 마감</figcaption>
+<svg viewBox="0 0 400 250" width="100%" role="img" aria-label="19(목) 5,137.89, 20(금) 4,869.96, 23(월) 4,708.54, 24(화) 5,006.03, 25(수) 4,697.51" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="14" y1="48.1" x2="386" y2="48.1" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M44.0,48.1 L122.0,119.8 L200.0,162.9 L278.0,83.4 L356.0,165.9" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
+<g><title>19(목) 5,137.89</title>
+<circle cx="44.0" cy="48.1" r="7" fill="var(--muted)" stroke="var(--paper)" stroke-width="2"/>
+<text x="44.0" y="32.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,137.89</text>
+<text x="44.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">19(목)</text>
+</g>
+<g><title>20(금) 4,869.96</title>
+<circle cx="122.0" cy="119.8" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="122.0" y="149.8" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">4,869.96</text>
+<text x="122.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">20(금)</text>
+</g>
+<g><title>23(월) 4,708.54</title>
+<circle cx="200.0" cy="162.9" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="200.0" y="192.9" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">4,708.54</text>
+<text x="200.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">23(월)</text>
+</g>
+<g><title>24(화) 5,006.03</title>
+<circle cx="278.0" cy="83.4" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="278.0" y="113.4" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,006.03</text>
+<text x="278.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">24(화)</text>
+</g>
+<g><title>25(수) 4,697.51</title>
+<circle cx="356.0" cy="165.9" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="356.0" y="195.9" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">4,697.51</text>
+<text x="356.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">25(수)</text>
+</g>
+</svg>
+</figure>
