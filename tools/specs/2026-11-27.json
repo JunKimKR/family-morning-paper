@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-27",
+  "charts": [
+    {"name": "moves", "type": "bars", "title": "어제 얼마나 올랐나·내렸나 (전날 대비, %)", "unit": "%",
+     "items": [
+       {"label": "SK하이닉스", "value": 2.23},
+       {"label": "코스닥", "value": 1.20},
+       {"label": "삼성전자", "value": 0.35},
+       {"label": "코스피", "value": 0.29}
+     ]},
+    {"name": "rate", "type": "journey", "title": "한국 기준금리 올해 흐름 (%)",
+     "points": [
+       {"label": "7월 전", "value": 2.50},
+       {"label": "7월", "value": 2.75},
+       {"label": "8월", "value": 3.00},
+       {"label": "10월(동결)", "value": 3.00},
+       {"label": "11월", "value": 3.25}
+     ]},
+    {"name": "flows", "type": "bars", "title": "누가 사고 누가 팔았나 (코스피, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "기관", "value": 7508},
+       {"label": "외국인", "value": -1136},
+       {"label": "개인", "value": -10439}
+     ]},
+    {"name": "kospi", "type": "history", "title": "코스피 최근 흐름 (마감 기준)", "column": "kospi", "days": 20}
+  ]
+}

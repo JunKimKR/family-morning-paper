@@ -1,0 +1,35 @@
+<figure class="chart">
+<figcaption>코스피 최근 흐름 (마감 기준)</figcaption>
+<svg viewBox="0 0 400 220" width="100%" role="img" aria-label="10/30부터 11/26까지 20일, 마지막 값 4,711.21" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="8" y1="180.0" x2="336" y2="180.0" stroke="var(--line)" stroke-width="1"/>
+<text x="344" y="185.0" font-size="13" fill="var(--muted)">4,558</text>
+<line x1="8" y1="100.0" x2="336" y2="100.0" stroke="var(--line)" stroke-width="1"/>
+<text x="344" y="105.0" font-size="13" fill="var(--muted)">5,278</text>
+<line x1="8" y1="20.0" x2="336" y2="20.0" stroke="var(--line)" stroke-width="1"/>
+<text x="344" y="25.0" font-size="13" fill="var(--muted)">5,998</text>
+<path d="M8.0,49.7 L25.3,35.5 L42.5,58.8 L59.8,55.0 L77.1,88.3 L94.3,124.3 L111.6,128.8 L128.8,104.4 L146.1,89.2 L163.4,92.8 L180.6,98.6 L197.9,119.8 L215.2,134.4 L232.4,123.4 L249.7,115.6 L266.9,145.4 L284.2,163.3 L301.5,130.2 L318.7,164.5 L336.0,163.0" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round"/>
+<g><title>10/30 5,730.74</title><circle cx="8.0" cy="49.7" r="10" fill="transparent"/></g>
+<g><title>11/02 5,859.08</title><circle cx="25.3" cy="35.5" r="10" fill="transparent"/></g>
+<g><title>11/03 5,648.79</title><circle cx="42.5" cy="58.8" r="10" fill="transparent"/></g>
+<g><title>11/04 5,683.80</title><circle cx="59.8" cy="55.0" r="10" fill="transparent"/></g>
+<g><title>11/05 5,383.80</title><circle cx="77.1" cy="88.3" r="10" fill="transparent"/></g>
+<g><title>11/06 5,059.69</title><circle cx="94.3" cy="124.3" r="10" fill="transparent"/></g>
+<g><title>11/09 5,018.85</title><circle cx="111.6" cy="128.8" r="10" fill="transparent"/></g>
+<g><title>11/10 5,239.13</title><circle cx="128.8" cy="104.4" r="10" fill="transparent"/></g>
+<g><title>11/11 5,375.36</title><circle cx="146.1" cy="89.2" r="10" fill="transparent"/></g>
+<g><title>11/12 5,342.73</title><circle cx="163.4" cy="92.8" r="10" fill="transparent"/></g>
+<g><title>11/13 5,290.53</title><circle cx="180.6" cy="98.6" r="10" fill="transparent"/></g>
+<g><title>11/16 5,100.50</title><circle cx="197.9" cy="119.8" r="10" fill="transparent"/></g>
+<g><title>11/17 4,968.48</title><circle cx="215.2" cy="134.4" r="10" fill="transparent"/></g>
+<g><title>11/18 5,067.44</title><circle cx="232.4" cy="123.4" r="10" fill="transparent"/></g>
+<g><title>11/19 5,137.89</title><circle cx="249.7" cy="115.6" r="10" fill="transparent"/></g>
+<g><title>11/20 4,869.96</title><circle cx="266.9" cy="145.4" r="10" fill="transparent"/></g>
+<g><title>11/23 4,708.54</title><circle cx="284.2" cy="163.3" r="10" fill="transparent"/></g>
+<g><title>11/24 5,006.03</title><circle cx="301.5" cy="130.2" r="10" fill="transparent"/></g>
+<g><title>11/25 4,697.51</title><circle cx="318.7" cy="164.5" r="10" fill="transparent"/></g>
+<g><title>11/26 4,711.21</title><circle cx="336.0" cy="163.0" r="10" fill="transparent"/></g>
+<circle cx="336.0" cy="163.0" r="5" fill="var(--accent)"/>
+<text x="8" y="210" font-size="13" fill="var(--muted)">10/30</text>
+<text x="336" y="210" font-size="13" text-anchor="end" fill="var(--muted)">11/26</text>
+</svg>
+</figure>

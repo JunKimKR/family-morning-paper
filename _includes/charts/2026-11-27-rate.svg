@@ -1,0 +1,32 @@
+<figure class="chart">
+<figcaption>한국 기준금리 올해 흐름 (%)</figcaption>
+<svg viewBox="0 0 400 250" width="100%" role="img" aria-label="7월 전 2.50, 7월 2.75, 8월 3.00, 10월(동결) 3.00, 11월 3.25" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="14" y1="165.9" x2="386" y2="165.9" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M44.0,165.9 L122.0,126.6 L200.0,87.4 L278.0,87.4 L356.0,48.1" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
+<g><title>7월 전 2.50</title>
+<circle cx="44.0" cy="165.9" r="7" fill="var(--muted)" stroke="var(--paper)" stroke-width="2"/>
+<text x="44.0" y="149.9" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">2.50</text>
+<text x="44.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">7월 전</text>
+</g>
+<g><title>7월 2.75</title>
+<circle cx="122.0" cy="126.6" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="122.0" y="110.6" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">2.75</text>
+<text x="122.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">7월</text>
+</g>
+<g><title>8월 3.00</title>
+<circle cx="200.0" cy="87.4" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="200.0" y="71.4" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">3.00</text>
+<text x="200.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">8월</text>
+</g>
+<g><title>10월(동결) 3.00</title>
+<circle cx="278.0" cy="87.4" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="278.0" y="71.4" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">3.00</text>
+<text x="278.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">10월(동결)</text>
+</g>
+<g><title>11월 3.25</title>
+<circle cx="356.0" cy="48.1" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="356.0" y="32.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">3.25</text>
+<text x="356.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">11월</text>
+</g>
+</svg>
+</figure>
