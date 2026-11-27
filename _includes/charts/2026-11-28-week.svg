@@ -1,0 +1,37 @@
+<figure class="chart">
+<figcaption>코스피의 한 주: 하루씩 크게 오르내렸어요</figcaption>
+<svg viewBox="0 0 400 250" width="100%" role="img" aria-label="20(금) 4,869.96, 23(월) 4,708.54, 24(화) 5,006.03, 25(수) 4,697.51, 26(목) 4,711.21, 27(금) 4,915.68" style="max-width:100%;height:auto;display:block" font-family="inherit">
+<line x1="14" y1="100.1" x2="386" y2="100.1" stroke="var(--muted)" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M44.0,100.1 L106.4,161.7 L168.8,48.1 L231.2,165.9 L293.6,160.6 L356.0,82.6" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round"/>
+<g><title>20(금) 4,869.96</title>
+<circle cx="44.0" cy="100.1" r="7" fill="var(--muted)" stroke="var(--paper)" stroke-width="2"/>
+<text x="44.0" y="84.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">4,869.96</text>
+<text x="44.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">20(금)</text>
+</g>
+<g><title>23(월) 4,708.54</title>
+<circle cx="106.4" cy="161.7" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="106.4" y="191.7" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">4,708.54</text>
+<text x="106.4" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">23(월)</text>
+</g>
+<g><title>24(화) 5,006.03</title>
+<circle cx="168.8" cy="48.1" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="168.8" y="32.1" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">5,006.03</text>
+<text x="168.8" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">24(화)</text>
+</g>
+<g><title>25(수) 4,697.51</title>
+<circle cx="231.2" cy="165.9" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="231.2" y="195.9" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">4,697.51</text>
+<text x="231.2" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">25(수)</text>
+</g>
+<g><title>26(목) 4,711.21</title>
+<circle cx="293.6" cy="160.6" r="7" fill="var(--down)" stroke="var(--paper)" stroke-width="2"/>
+<text x="293.6" y="190.6" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">4,711.21</text>
+<text x="293.6" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">26(목)</text>
+</g>
+<g><title>27(금) 4,915.68</title>
+<circle cx="356.0" cy="82.6" r="7" fill="var(--up)" stroke="var(--paper)" stroke-width="2"/>
+<text x="356.0" y="66.6" font-size="14" font-weight="700" text-anchor="middle" fill="var(--ink)">4,915.68</text>
+<text x="356.0" y="238" font-size="13" text-anchor="middle" fill="var(--muted)">27(금)</text>
+</g>
+</svg>
+</figure>

@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-28",
+  "charts": [
+    {"name": "moves", "type": "bars", "title": "금요일 얼마나 올랐나·내렸나 (전날 대비, %)", "unit": "%",
+     "items": [
+       {"label": "앤트로픽(약)", "value": 11.0},
+       {"label": "코스닥(약)", "value": 8.0},
+       {"label": "SK하이닉스", "value": 5.40},
+       {"label": "삼성전자", "value": 4.55},
+       {"label": "코스피", "value": 4.34},
+       {"label": "미국 나스닥", "value": 2.31},
+       {"label": "미국 S&P 500", "value": 1.60},
+       {"label": "미국 다우", "value": 1.18}
+     ]},
+    {"name": "week", "type": "journey", "title": "코스피의 한 주: 하루씩 크게 오르내렸어요",
+     "points": [
+       {"label": "20(금)", "value": 4869.96},
+       {"label": "23(월)", "value": 4708.54},
+       {"label": "24(화)", "value": 5006.03},
+       {"label": "25(수)", "value": 4697.51},
+       {"label": "26(목)", "value": 4711.21},
+       {"label": "27(금)", "value": 4915.68}
+     ]},
+    {"name": "flows", "type": "bars", "title": "누가 사고 누가 팔았나 (코스피, 억 원)", "unit": "억 원",
+     "items": [
+       {"label": "외국인", "value": 11256},
+       {"label": "기관", "value": 2388},
+       {"label": "개인", "value": -17746}
+     ]},
+    {"name": "weekly", "type": "bars", "title": "이번 주 성적표 (지난주 금요일 대비, %)", "unit": "%",
+     "items": [
+       {"label": "미국 나스닥", "value": 6.68},
+       {"label": "미국 S&P 500", "value": 5.60},
+       {"label": "미국 다우", "value": 5.46},
+       {"label": "코스피", "value": 0.94},
+       {"label": "SK하이닉스", "value": -0.27},
+       {"label": "삼성전자", "value": -2.18}
+     ]},
+    {"name": "kospi", "type": "history", "title": "코스피 최근 흐름 (마감 기준)", "column": "kospi", "days": 20}
+  ]
+}
